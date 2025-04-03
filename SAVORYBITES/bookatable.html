@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SavoryBites - Book A Table</title>
+    <link rel="stylesheet" href="bookatable.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="SavoryBites Logo">
+            <h1>Savory Bites</h1>
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="SavoryBites.html">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#blog">About</a></li>
+                <li><a href="#services">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="bookatable.html" class="book-table">Book A Table</a>
+    </header>
+
+    <div class="booking-container">
+        <form class="booking-form">
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" placeholder="Date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Time</label>
+                    <input type="time" name="Enter Time" id="Time" placeholder="Enter Time" required>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="+233(0) *** **** **" required>
+            </div>
+
+            <div class="form-group">
+                <label for="total-person">Total Person</label>
+               <input type="number" name="Persons" id="Persons" placeholder="Enter Number Of Persons" required>
+            </div>
+
+            <button type="submit" class="book-btn" id="Submit">Book A Table</button>
+        </form>
+    </div>
+    
+    <script src="bookatable.js"></script>
+
+    <footer id="footer" class="footer">
+        <div class="footer-container">
+            <!-- Left Section (Logo & Social Media) -->
+            <div class="footer-left">
+                <div class="logo">
+                    <img src="logo.png" alt="SavoryBites">
+                    <h3>SavoryBites</h3>
+                </div>
+                <p>Your Home For Quality Foods......</p>
+                <div class="social-icons">
+                    <a href="#"><img src="x.png" alt="twiter" width="40"></i></a>
+                    <a href="#"><img src="instagram.png" alt="instagram" width="40"></i></a>
+                    <a href="#"><img src="facebook.png" alt="facebook" width="40"></i></a>
+                </div>
+            </div>
+
+            <!-- Middle Section (Links) -->
+            <div class="footer-middle">
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="bookatable.html">Home</a></li>
+                    <li><a href="#blog">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#services">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Section (Instagram Feed) -->
+            <div class="footer-right">
+                <h4>Follow Us On Instagram</h4>
+                <div class="insta-gallery">
+                    <img src="footerimg1.png" alt="Food 1">
+                    <img src="footerimg2.png" alt="Food 2">
+                    <img src="footerimg3.png" alt="Food 3">
+                    <img src="footerimg4.png" alt="Food 4">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2023 SavoryBites. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
